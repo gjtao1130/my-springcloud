@@ -11,6 +11,8 @@
 
     <modules>
         <module>api</module>
+        <module>provider-dept-8001</module>
+
         <module>eureka-server</module>
         <module>eureka-client</module>
     </modules>
@@ -41,6 +43,11 @@
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
         </dependency>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-aop</artifactId>
+        </dependency>
+
 
         <dependency>
             <groupId>mysql</groupId>
@@ -51,6 +58,12 @@
             <groupId>com.alibaba</groupId>
             <artifactId>druid</artifactId>
             <version>1.1.10</version>
+        </dependency>
+        <!-- mybatis整合Springboot -->
+        <dependency>
+            <groupId>org.mybatis.spring.boot</groupId>
+            <artifactId>mybatis-spring-boot-starter</artifactId>
+            <version>1.3.2</version>
         </dependency>
 
         <dependency>

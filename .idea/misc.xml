@@ -8,6 +8,7 @@
         <option value="$PROJECT_DIR$/eurekaserver/pom.xml" />
         <option value="$PROJECT_DIR$/eureka-client/pom.xml" />
         <option value="$PROJECT_DIR$/api/pom.xml" />
+        <option value="$PROJECT_DIR$/provider-dept-8001/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
