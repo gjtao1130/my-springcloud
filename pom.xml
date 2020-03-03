@@ -14,6 +14,8 @@
         <module>provider-dept-8001</module>
         <module>consumer-dept-80</module>
         <module>eureka-7001</module>
+        <module>eureka-7002</module>
+        <module>eureka-7003</module>
     </modules>
 
     <parent>
@@ -40,6 +42,7 @@
             <scope>runtime</scope>
             <optional>true</optional>
         </dependency>
+
 
         <dependency>
             <groupId>org.springframework.boot</groupId>
@@ -118,5 +121,28 @@
             </dependency>
         </dependencies>
     </dependencyManagement>
+
+    <!-- SpringCloud_微服务完善_info内容构建 -->
+    <build>
+        <finalName>microservicecloud</finalName>
+        <resources>
+            <resource>
+                <directory>src/main/resources</directory>
+                <filtering>true</filtering>
+            </resource>
+        </resources>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-resources-plugin</artifactId>
+                <configuration>
+                    <delimiters>
+                        <delimit>$</delimit>
+                    </delimiters>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
+    <!-- SpringCloud_微服务完善_info内容构建 -->
 
 </project>
