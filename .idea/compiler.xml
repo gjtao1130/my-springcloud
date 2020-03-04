@@ -14,11 +14,11 @@
         <module name="eureka-7001" />
         <module name="provider-dept-8001" />
         <module name="consumer-dept-feign" />
+        <module name="consumer-hystrix-dashboard" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="consumer-dept-80 (1)" target="1.8" />
-      <module name="consumer-dept-feign" target="1.8" />
       <module name="demo" target="1.8" />
       <module name="eureka-client" target="1.8" />
       <module name="eureka-server" target="1.8" />
@@ -31,6 +31,7 @@
       <module name="consumer-dept-80" options="-parameters" />
       <module name="consumer-dept-80 (1)" options="-parameters" />
       <module name="consumer-dept-feign" options="-parameters" />
+      <module name="consumer-hystrix-dashboard" options="-parameters" />
       <module name="demo" options="-parameters" />
       <module name="eureka-7001" options="-parameters" />
       <module name="eureka-7002" options="-parameters" />

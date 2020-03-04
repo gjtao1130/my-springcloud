@@ -10,15 +10,8 @@
         <option value="$PROJECT_DIR$/provider-dept-8001/pom.xml" />
         <option value="$PROJECT_DIR$/consumer-dept-80/pom.xml" />
         <option value="$PROJECT_DIR$/eureka-7001/pom.xml" />
-        <option value="$PROJECT_DIR$/consumer-dept-feign/pom.xml" />
+        <option value="$PROJECT_DIR$/consumer-hystrix-dashboard/pom.xml" />
       </list>
-    </option>
-    <option name="ignoredFiles">
-      <set>
-        <option value="$PROJECT_DIR$/consumer-dept-feign/pom.xml" />
-        <option value="$PROJECT_DIR$/eureka-server/pom.xml" />
-        <option value="$PROJECT_DIR$/register/pom.xml" />
-      </set>
     </option>
   </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" project-jdk-name="1.8" project-jdk-type="JavaSDK">
