@@ -10,10 +10,12 @@
         <option value="$PROJECT_DIR$/provider-dept-8001/pom.xml" />
         <option value="$PROJECT_DIR$/consumer-dept-80/pom.xml" />
         <option value="$PROJECT_DIR$/eureka-7001/pom.xml" />
+        <option value="$PROJECT_DIR$/consumer-dept-feign/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
       <set>
+        <option value="$PROJECT_DIR$/consumer-dept-feign/pom.xml" />
         <option value="$PROJECT_DIR$/eureka-server/pom.xml" />
         <option value="$PROJECT_DIR$/register/pom.xml" />
       </set>
